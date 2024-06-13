@@ -1,0 +1,54 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    border: none;
+    background-color: grey;
+    font-size: 24px;
+    padding: 16px;
+    margin-left: 10px;
+    height: 65px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+input {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#pertanyaan {
+    font-size: 1.6em;
+    font-weight: 500;
+}
